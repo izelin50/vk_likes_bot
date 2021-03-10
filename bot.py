@@ -143,7 +143,7 @@ def main():
             last_chat_text = last_update['message']['text']
             last_chat_id = last_update['message']['chat']['id']
             last_chat_name = last_update['message']['chat']['first_name']
-            bot.send_message(862478401,str(last_chat_id)+" "+last_chat_name+" заказал " + last_chat_text)
+            bot.send_message('owner_telegram_id',str(last_chat_id)+" "+last_chat_name+" заказал " + last_chat_text) #логирование
         
         else:
             continue
