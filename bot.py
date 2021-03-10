@@ -128,7 +128,7 @@ class BotHandler:
         return last_update
 
 
-bot = BotHandler('1337963147:AAGQGxsH-5kB0p3yQ5OdPEWPaAmLnKAMus8')
+bot = BotHandler('telegram_token')
 greetings = ('здравствуй', 'привет', 'ку', 'здорово')
 now = datetime.datetime.now()
 
